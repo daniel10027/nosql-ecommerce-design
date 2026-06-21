@@ -1,0 +1,20 @@
+{
+  "_id": "usr_8f3a2",
+  "email": "amara.kone@example.com",
+  "name": "Amara Koné",
+  "phone": "+225-07-12-34-56-78",
+  "addresses": [
+    {
+      "label": "home",
+      "line1": "12 Rue des Jardins",
+      "city": "Abidjan",
+      "country": "CI",
+      "is_default": true
+    }
+  ],
+  "created_at": "2025-03-11T09:20:00Z",
+  "loyalty_tier": "silver",
+  "indexes": [
+    { "type": "unique", "fields": ["email"] }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "prd_1a92c",
+  "sku": "SHOE-NK-AIR-42",
+  "name": "Nike Air Runner",
+  "description": "Lightweight running shoe with breathable mesh upper, designed for daily training.",
+  "category_path": ["footwear", "running", "men"],
+  "tags": ["nike", "running", "lightweight", "mesh"],
+  "price": {
+    "amount": 89.99,
+    "currency": "USD"
+  },
+  "stock_qty": 482,
+  "attributes": {
+    "size": "42",
+    "color": "black/white",
+    "brand": "Nike"
+  },
+  "rating_avg": 4.6,
+  "rating_count": 1290,
+  "updated_at": "2026-06-10T14:02:00Z",
+  "indexes": [
+    { "type": "unique", "fields": ["sku"] },
+    { "type": "compound", "fields": ["category_path", "price.amount"] },
+    { "type": "text", "fields": ["name", "description", "tags"] }
+  ]
+}

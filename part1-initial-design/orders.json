@@ -1,0 +1,47 @@
+{
+  "_id": "ord_5c0e7",
+  "order_number": "CI-2026-000451",
+  "customer": {
+    "user_id": "usr_8f3a2",
+    "name": "Amara Koné",
+    "email": "amara.kone@example.com",
+    "shipping_address": {
+      "line1": "12 Rue des Jardins",
+      "city": "Abidjan",
+      "country": "CI"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd_1a92c",
+      "sku": "SHOE-NK-AIR-42",
+      "name": "Nike Air Runner",
+      "unit_price": 89.99,
+      "quantity": 1,
+      "line_total": 89.99
+    }
+  ],
+  "totals": {
+    "subtotal": 89.99,
+    "shipping": 5.00,
+    "tax": 4.50,
+    "grand_total": 99.49,
+    "currency": "USD"
+  },
+  "status": "processing",
+  "status_history": [
+    { "status": "created", "at": "2026-06-20T10:15:00Z" },
+    { "status": "processing", "at": "2026-06-20T10:16:30Z" }
+  ],
+  "payment": {
+    "method": "card",
+    "provider_ref": "pay_9f12ab",
+    "paid": true
+  },
+  "created_at": "2026-06-20T10:15:00Z",
+  "indexes": [
+    { "type": "unique", "fields": ["order_number"] },
+    { "type": "compound", "fields": ["customer.user_id", "created_at"] },
+    { "type": "single", "fields": ["status"] }
+  ]
+}

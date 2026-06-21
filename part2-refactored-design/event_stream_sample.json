@@ -1,0 +1,12 @@
+{
+  "event_id": "evt_77a1",
+  "event_type": "order_completed",
+  "product_id": "prd_1a92c",
+  "user_id": "usr_8f3a2",
+  "region": "CI",
+  "amount": 89.99,
+  "ts": "2026-06-20T10:16:30Z",
+  "shard_key": "product_id (hashed) + time_bucket",
+  "store_type": "wide-column / append-only log",
+  "purpose": "source of truth for re-deriving analytical aggregates"
+}

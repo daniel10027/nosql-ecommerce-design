@@ -1,0 +1,17 @@
+{
+  "_id": "2026-06-20|footwear|CI",
+  "date": "2026-06-20",
+  "category": "footwear",
+  "region": "CI",
+  "order_count": 1342,
+  "units_sold": 1890,
+  "gross_revenue": 168402.50,
+  "avg_order_value": 125.48,
+  "top_products": [
+    { "product_id": "prd_1a92c", "units_sold": 210, "revenue": 18897.90 },
+    { "product_id": "prd_2b71f", "units_sold": 188, "revenue": 15022.12 }
+  ],
+  "shard_key": "date+region",
+  "consistency": "eventual",
+  "refresh_method": "streaming aggregation from order_completed events"
+}

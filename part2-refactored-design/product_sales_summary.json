@@ -1,0 +1,12 @@
+{
+  "_id": "prd_1a92c|2026-06",
+  "product_id": "prd_1a92c",
+  "month": "2026-06",
+  "units_sold": 4920,
+  "revenue": 442750.80,
+  "return_rate": 0.018,
+  "rank_in_category": 3,
+  "shard_key": "product_id (hashed)",
+  "consistency": "eventual",
+  "refresh_method": "nightly batch + intraday incremental deltas"
+}
